@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .mainTextBlock-spacing {
+        @apply px-4 py-10 z-10
+    }
+
+    .card-with-blackShadow::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    }
+}

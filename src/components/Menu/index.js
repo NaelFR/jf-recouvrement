@@ -2,6 +2,7 @@ import {useState} from "react";
 import Link from "next/link";
 import Image from 'next/image';
 import { motion } from "framer-motion"
+import classNames from "classnames"
 import {MenuButton } from "../MenuButton";
 
 const variants = {
@@ -11,17 +12,19 @@ const variants = {
 export function Menu() {
     const [isOpen, setIsOpen] = useState(false)
 
-    return (
-        <div className=" bg-black text-white">
-            <div className="flex items-center px-4">
-                <Image src="/JF-Recouvrement.svg" alt="Vercel Logo" width={231} height={95} />
+    const menuClassNames = classNames("text-center py-2 sm:h-auto", { "h-0": !isOpen, "h-max": !isOpen})
 
-                <MenuButton className="ml-auto " isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}/>
+    return (
+        <div className="bg-black text-white">
+            <div className="flex items-center px-4">
+                <Image src="/JF-Recouvrement.svg" alt="JF recouvrement Logo" width={231} height={95} />
+
+                <MenuButton className="ml-auto md:hidden" isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}/>
             </div>
             <motion.ul
                 animate={isOpen ? "open" : "closed"}
                 variants={variants}
-                className="text-center py-2"
+                className="text-center py-2 md:block"
             >
                 <li>
                     <Link href="/">

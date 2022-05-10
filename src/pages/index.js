@@ -69,7 +69,7 @@ export default function Index() {
                         <div className="w-36 mx-auto md:mx-0">
                             <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={759} alt="recouvrement amiable"></Image>
                         </div>
-                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
+                        <div className=' md:bottom-0 flex flex-col items-center text-center px-4'>
                             <p className='uppercase text-blue text-2xl '>RECOUVREMENT AMIABLE</p>
                             <p>Nous réalisons votre recouvrement amiable dans le forfait que vous souhaitez; chaque client dispose
                                 d&apos;une offre précise selon ses besoins.</p>
@@ -79,7 +79,7 @@ export default function Index() {
                         <div className="w-36 mx-auto md:mx-0">
                             <Image src='/undraw_predictive_analytics_re_wxt8.svg' width={363} height={363} layout="responsive" alt="analyse du client"></Image>
                         </div>
-                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
+                        <div className=' md:bottom-0 flex flex-col items-center text-center px-4'>
                             <p className='uppercase text-blue text-2xl'>ANALYSE DU CLIENT</p>
                             <p>Grâce à nos outils informatiques, nous vous proposons une analyse chiffrée et complète de vos clients.</p>
                         </div>
@@ -88,7 +88,7 @@ export default function Index() {
                         <div className="w-36 mx-auto md:mx-0">
                             <Image src='/undraw_growth_analytics_re_pyxf.svg' width={932} height={932} alt="compte rendu mensuel"></Image>
                         </div>
-                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
+                        <div className=' md:bottom-0 flex flex-col items-center text-center px-4'>
                             <p className='uppercase text-blue text-2xl '>COMPTE RENDU MENSUEL</p>
                             <p>Nous réalisons un suivi détaillé qu&apos;il soit mensuel ou spécialisé: si un client a régulièrement des impayés,
                               vous en serez alerté.</p>

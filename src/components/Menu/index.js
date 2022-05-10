@@ -24,11 +24,11 @@ export function Menu() {
                         <a >Accueil</a>
                     </Link>
                 </li>
-                <li>
+                {/*<li>
                     <Link href="/team" passHref>
                         <a>Notre équipe</a>
                     </Link>
-                </li>
+                </li>*/}
                 <li>
                     <Link href="/#specialities">
                         <a >Expertise</a>

@@ -11,14 +11,14 @@ export default function Index() {
                     </div>
                     <div
                         className='absolute md:relative top-0 md:mt-8 flex flex-col justify-center items-center w-full h-full text-white md:text-blue text-center '>
-                        <p className='uppercase text-2xl md:text-4xl'> Découvrez JF Recouvrement</p>
+                        <p className='uppercase text-2xl md:text-4xl md:font-bold'> Découvrez JF Recouvrement</p>
                         <p>Pour vos retards de paiement.</p>
                     </div>
                 </div>
             </section>
             <section id="specialities" className='text-center'>
                 <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
-                    <p className='uppercase text-blue text-2xl'>Nos domaines de spécialité</p>
+                    <p className='uppercase text-blue text-3xl'>Nos domaines de spécialité</p>
                     <p>Laissez-nous vous représenter</p>
                 </div>
                 <div className="md:grid md:grid-cols-3">
@@ -61,32 +61,37 @@ export default function Index() {
 
             <section id="services" className="text-center">
                 <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
-                    <p className='uppercase text-blue text-2xl'>NOS SERVICES</p>
+                    <p className='uppercase text-blue text-3xl'>NOS SERVICES</p>
                     <p>JF Recouvrement vous propose plusieurs prestations</p>
                 </div>
                 <div className="md:flex">
-                    <div className="relative flex-1 md:card-with-blackShadow">
-                        <Image src='/servicesPresentation.png' width={640} height={510}></Image>
-                        <div className='md:absolute md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
-                            <p className='uppercase text-blue text-2xl font-bold'>ANALYSE DU CLIENT</p>
-                            <p className="md:text-white">Grâce à nos outils informatiques, nous vous proposons une analyse chiffrée et complète de vos clients.</p>
+                    <div className="relative flex-1 flex flex-col items-center">
+                        <div className="w-32">
+                            <Image src='/undraw_predictive_analytics_re_wxt8.svg' width={363} height={438}></Image>
+                        </div>
+                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
+                            <p className='uppercase text-blue text-2xl'>ANALYSE DU CLIENT</p>
+                            <p>Grâce à nos outils informatiques, nous vous proposons une analyse chiffrée et complète de vos clients.</p>
                         </div>
                     </div>
-                    <div className="relative flex-1 md:card-with-blackShadow">
-                        <Image src='/clientAudit.png' width={640} height={510}></Image>
-                        <div className='md:absolute md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
-                            <p className='uppercase text-blue text-2xl font-bold'>RECOUVREMENT AMIABLE</p>
-                            <p className="md:text-white">Nous réalisons votre recouvrement amiable dans le forfait que vous souhaitez; chaque client dispose
-                          d'une offre précise selon ses besoins.</p>
-
+                    <div className="relative flex-1 flex flex-col items-center">
+                        <div className="w-32">
+                            <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={616}></Image>
+                        </div>
+                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
+                            <p className='uppercase text-blue text-2xl '>RECOUVREMENT AMIABLE</p>
+                            <p>Nous réalisons votre recouvrement amiable dans le forfait que vous souhaitez; chaque client dispose
+                              d'une offre précise selon ses besoins.</p>
                         </div>
                     </div>
-                    <div className="relative flex-1 md:card-with-blackShadow">
-                        <Image src='/friendly_recovery2.png' width={640} height={510}></Image>
-                        <div className='md:absolute md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
-                            <p className='uppercase text-blue text-2xl font-bold'>COMPTE RENDU MENSUEL</p>
-                            <p className="md:text-white">Nous réalisons un suivi détaillé qu'il soit mensuel ou spécialisé: si un client a régulièrement des impayés,
-                          vous en serez alerté.</p>
+                    <div className="relative flex-1 flex flex-col items-center">
+                        <div className="w-32">
+                            <Image src='/undraw_growth_analytics_re_pyxf.svg' width={932} height={568}></Image>
+                        </div>
+                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
+                            <p className='uppercase text-blue text-2xl '>COMPTE RENDU MENSUEL</p>
+                            <p>Nous réalisons un suivi détaillé qu'il soit mensuel ou spécialisé: si un client a régulièrement des impayés,
+                              vous en serez alerté.</p>
                         </div>
                     </div>
                 </div>

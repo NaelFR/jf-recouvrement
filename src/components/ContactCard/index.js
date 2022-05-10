@@ -4,7 +4,7 @@ export function ContactCard() {
     return (
         <section id="contact" className="text-center md:text-left py-8 md:flex items-center justify-center md:space-x-4">
             <div className="w-48 mx-auto md:mx-0">
-                <Image src='/undraw_contact_us_re_4qqt.svg' width={894} height={449}/>
+                <Image src='/undraw_contact_us_re_4qqt.svg' width={894} height={449} alt="contact"/>
             </div>
             <div className="py-4">
                 <address className="space-y-3 text-blue">

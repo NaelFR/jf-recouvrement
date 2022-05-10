@@ -7,7 +7,7 @@ export default function Index() {
             <section id="home">
                 <div className='relative text-center'>
                     <div className="md:max-h-96 md:overflow-hidden">
-                        <Image  src='/banner.png' width={640} height={510} layout="responsive"></Image>
+                        <Image  src='/banner.png' width={640} height={510} layout="responsive" alt="banner"></Image>
                     </div>
                     <div
                         className='absolute md:relative top-0 md:mt-8 flex flex-col justify-center items-center w-full h-full text-white md:text-blue text-center '>
@@ -24,18 +24,18 @@ export default function Index() {
                 <div className="md:grid md:grid-cols-3">
                     <div className="md:grid md:grid-rows-2">
                         <div className='flex-1'>
-                            <Image src='/specialities.png' width={640} height={510}></Image>
+                            <Image src='/specialities.png' width={640} height={510} alt="recouvrement judiciaire"></Image>
                         </div>
                         <div className='flex flex-col flex-1 justify-center items-center text-center mainTextBlock-spacing'>
                             <p className='uppercase text-blue text-xl'>Recouvrement judiciaire</p>
                             <p>Nous pouvons réaliser votre dossier afin de le remettre au greffe du tribunal pour réaliser une injonction
             de payer par un huissier.
-            Suite à la décision du juge, nous vous remettrons les documents nécéssaires ainsi qu'au débiteur.</p>
+            Suite à la décision du juge, nous vous remettrons les documents nécéssaires ainsi qu&apos;au débiteur.</p>
                         </div>
                     </div>
                     <div className="md:flex md:flex-col-reverse">
                         <div className='flex-1'>
-                            <Image src='/signature.png' width={640} height={510}></Image>
+                            <Image src='/signature.png' width={640} height={510} alt="recouvrement amiable"></Image>
                         </div>
                         <div className='flex flex-col flex-1 justify-center items-center text-center mainTextBlock-spacing'>
                             <p className='uppercase text-blue text-2xl'>RECOUVREMENT AMIABLE</p>
@@ -47,7 +47,7 @@ export default function Index() {
                     <div className="md:grid-rows-2">
                         <div className='flex-1'>
 
-                            <Image src='/friendly_recovery.png' width={640} height={510}></Image>
+                            <Image src='/friendly_recovery.png' width={640} height={510} alt="le saviez-vous ?"></Image>
                         </div>
                         <div className='flex flex-col flex-1 justify-center items-center text-center mainTextBlock-spacing'>
                             <p className='uppercase text-blue text-2xl'>Le saviez-vous ?</p>
@@ -67,7 +67,7 @@ export default function Index() {
                 <div className="md:flex">
                     <div className="relative flex-1 flex flex-col items-center">
                         <div className="w-32">
-                            <Image src='/undraw_predictive_analytics_re_wxt8.svg' width={363} height={438}></Image>
+                            <Image src='/undraw_predictive_analytics_re_wxt8.svg' width={363} height={438} alt="analyse du client"></Image>
                         </div>
                         <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
                             <p className='uppercase text-blue text-2xl'>ANALYSE DU CLIENT</p>
@@ -76,21 +76,21 @@ export default function Index() {
                     </div>
                     <div className="relative flex-1 flex flex-col items-center">
                         <div className="w-32">
-                            <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={616}></Image>
+                            <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={616} alt="recouvrement amiable"></Image>
                         </div>
                         <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
                             <p className='uppercase text-blue text-2xl '>RECOUVREMENT AMIABLE</p>
                             <p>Nous réalisons votre recouvrement amiable dans le forfait que vous souhaitez; chaque client dispose
-                              d'une offre précise selon ses besoins.</p>
+                              d&apos;une offre précise selon ses besoins.</p>
                         </div>
                     </div>
                     <div className="relative flex-1 flex flex-col items-center">
                         <div className="w-32">
-                            <Image src='/undraw_growth_analytics_re_pyxf.svg' width={932} height={568}></Image>
+                            <Image src='/undraw_growth_analytics_re_pyxf.svg' width={932} height={568} alt="compte rendu mensuel"></Image>
                         </div>
                         <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
                             <p className='uppercase text-blue text-2xl '>COMPTE RENDU MENSUEL</p>
-                            <p>Nous réalisons un suivi détaillé qu'il soit mensuel ou spécialisé: si un client a régulièrement des impayés,
+                            <p>Nous réalisons un suivi détaillé qu&apos;il soit mensuel ou spécialisé: si un client a régulièrement des impayés,
                               vous en serez alerté.</p>
                         </div>
                     </div>

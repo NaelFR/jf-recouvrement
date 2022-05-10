@@ -4,7 +4,7 @@ import { ContactCard } from '../components/ContactCard'
 export default function Index() {
     return (
         <>
-            <section>
+            <section id="home">
                 <div className='relative text-center'>
                     <div className="md:max-h-96 md:overflow-hidden">
                         <Image  src='/banner.png' width={640} height={510} layout="responsive"></Image>
@@ -16,7 +16,7 @@ export default function Index() {
                     </div>
                 </div>
             </section>
-            <section className='text-center'>
+            <section id="specialities" className='text-center'>
                 <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
                     <p className='uppercase text-blue text-2xl'>Nos domaines de spécialité</p>
                     <p>Laissez-nous vous représenter</p>
@@ -59,7 +59,7 @@ export default function Index() {
                 </div>
             </section>
 
-            <section className="text-center">
+            <section id="services" className="text-center">
                 <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
                     <p className='uppercase text-blue text-2xl'>NOS SERVICES</p>
                     <p>JF Recouvrement vous propose plusieurs prestations</p>

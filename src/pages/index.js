@@ -66,7 +66,7 @@ export default function Index() {
                 </div>
                 <div className="md:grid md:grid-cols-3">
                     <div className="relative md:grid md:grid-rows-2 justify-items-center">
-                        <div className="w-36 self-center">
+                        <div className="w-36 mx-auto md:mx-0">
                             <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={759} alt="recouvrement amiable"></Image>
                         </div>
                         <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
@@ -76,7 +76,7 @@ export default function Index() {
                         </div>
                     </div>
                     <div className="relative md:grid md:grid-rows-2 justify-items-center">
-                        <div className="w-36">
+                        <div className="w-36 mx-auto md:mx-0">
                             <Image src='/undraw_predictive_analytics_re_wxt8.svg' width={363} height={363} layout="responsive" alt="analyse du client"></Image>
                         </div>
                         <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
@@ -85,7 +85,7 @@ export default function Index() {
                         </div>
                     </div>
                     <div className="relative md:grid md:grid-rows-2 justify-items-center">
-                        <div className="w-36">
+                        <div className="w-36 mx-auto md:mx-0">
                             <Image src='/undraw_growth_analytics_re_pyxf.svg' width={932} height={932} alt="compte rendu mensuel"></Image>
                         </div>
                         <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>

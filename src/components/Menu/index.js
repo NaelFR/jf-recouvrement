@@ -7,7 +7,12 @@ import {MenuButton } from "../MenuButton";
 export function Menu() {
     const [isOpen, setIsOpen] = useState(false)
 
-    const menuClassNames = classNames("text-center py-2 md:h-auto md:flex md:justify-center md:opacity-100 md:gap-4 text-white md:translate-y-0", { "h-0 translate-y-5 opacity-0": !isOpen, "h-max translate-y-0 opacity-100": isOpen})
+    const menuClassNames = classNames(
+        "text-center py-2 md:h-auto md:flex md:justify-center md:opacity-100 md:gap-4 text-white md:translate-y-0",
+        {
+            "h-0 translate-y-5 opacity-0": !isOpen, "h-max translate-y-0 opacity-100": isOpen
+        }
+    )
 
     return (
         <div className="bg-black text-white">
@@ -24,11 +29,6 @@ export function Menu() {
                         <a >Accueil</a>
                     </Link>
                 </li>
-                {/*<li>
-                    <Link href="/team" passHref>
-                        <a>Notre équipe</a>
-                    </Link>
-                </li>*/}
                 <li>
                     <Link href="/#specialities">
                         <a >Expertise</a>

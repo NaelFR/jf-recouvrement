@@ -4,20 +4,20 @@ import { ContactCard } from '../components/ContactCard'
 export default function Index() {
     return (
         <>
-            <section id="home">
-                <div className='relative text-center'>
-                    <div className="md:max-h-96 md:overflow-hidden">
-                        <Image  src='/banner.png' width={640} height={510} layout="responsive" alt="banner"></Image>
+            <section id="home" className="md:bg-fixed md:bg-center md:bg-cover md:banner-background md:h-96">
+                <div className='relative text-center md:h-full'>
+                    <div className="md:hidden">
+                        <Image  src='/banner.png' width={640} height={510} layout="responsive"  alt="banner"></Image>
                     </div>
                     <div
-                        className='absolute md:relative top-0 md:mt-8 flex flex-col justify-center items-center w-full h-full text-white md:text-blue text-center '>
+                        className='absolute md:relative top-0 flex flex-col justify-center items-center w-full h-full text-white  text-center '>
                         <p className='uppercase text-2xl md:text-4xl md:font-bold'> Découvrez JF Recouvrement</p>
                         <p>Pour vos retards de paiement.</p>
                     </div>
                 </div>
             </section>
             <section id="specialities" className='text-center'>
-                <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
+                <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing font-bold'>
                     <p className='uppercase text-blue text-3xl'>Nos domaines de spécialité</p>
                     <p>Laissez-nous vous représenter</p>
                 </div>
@@ -60,7 +60,7 @@ export default function Index() {
             </section>
 
             <section id="services" className="text-center">
-                <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
+                <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing font-bold'>
                     <p className='uppercase text-blue text-3xl'>NOS SERVICES</p>
                     <p>JF Recouvrement vous propose plusieurs prestations</p>
                 </div>

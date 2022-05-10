@@ -10,31 +10,22 @@ export default function Index() {
                         <Image  src='/banner.png' width={640} height={510} layout="responsive"  alt="banner"></Image>
                     </div>
                     <div
-                        className='absolute md:relative top-0 flex flex-col justify-center items-center w-full h-full text-white  text-center '>
-                        <p className='uppercase text-2xl md:text-4xl md:font-bold'> Découvrez JF Recouvrement</p>
-                        <p>Pour vos retards de paiement.</p>
+                        className='absolute md:relative top-0 flex flex-col justify-center items-center w-full h-full text-white text-center '>
+                        <div className="bg-black p-4 rounded-xl bg-opacity-25">
+                            <p className='uppercase text-2xl md:text-4xl md:font-bold'> Découvrez JF Recouvrement</p>
+                            <p>Pour vos retards de paiement.</p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id="specialities" className='text-center'>
+            <section id="specialities" className='text-center max-w-[1080px] mx-auto'>
                 <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing font-bold'>
                     <p className='uppercase text-blue text-3xl'>Nos domaines de spécialité</p>
                     <p>Laissez-nous vous représenter</p>
                 </div>
                 <div className="md:grid md:grid-cols-3">
-                    <div className="md:grid md:grid-rows-2">
-                        <div className='flex-1'>
-                            <Image src='/specialities.png' width={640} height={510} alt="recouvrement judiciaire"></Image>
-                        </div>
-                        <div className='flex flex-col flex-1 justify-center items-center text-center mainTextBlock-spacing'>
-                            <p className='uppercase text-blue text-xl'>Recouvrement judiciaire</p>
-                            <p>Nous pouvons réaliser votre dossier afin de le remettre au greffe du tribunal pour réaliser une injonction
-            de payer par un huissier.
-            Suite à la décision du juge, nous vous remettrons les documents nécéssaires ainsi qu&apos;au débiteur.</p>
-                        </div>
-                    </div>
-                    <div className="md:flex md:flex-col-reverse">
-                        <div className='flex-1'>
+                    <div className="md:grid md:grid-rows-2 ">
+                        <div className='flex-1 flex items-center justify-center'>
                             <Image src='/signature.png' width={640} height={510} alt="recouvrement amiable"></Image>
                         </div>
                         <div className='flex flex-col flex-1 justify-center items-center text-center mainTextBlock-spacing'>
@@ -44,9 +35,8 @@ export default function Index() {
                         une facturation uniquement sous réserve de règlement du créancier.</p>
                         </div>
                     </div>
-                    <div className="md:grid-rows-2">
-                        <div className='flex-1'>
-
+                    <div className="md:flex md:flex-col-reverse">
+                        <div className='flex-1 flex items-center justify-center'>
                             <Image src='/friendly_recovery.png' width={640} height={510} alt="le saviez-vous ?"></Image>
                         </div>
                         <div className='flex flex-col flex-1 justify-center items-center text-center mainTextBlock-spacing'>
@@ -55,11 +45,21 @@ export default function Index() {
             de temps et contactez-nous !</p>
                         </div>
                     </div>
-
+                    <div className="md:grid md:grid-rows-2">
+                        <div className='flex-1 flex items-center justify-center'>
+                            <Image src='/specialities.png' width={640} height={510} alt="recouvrement judiciaire"></Image>
+                        </div>
+                        <div className='flex flex-col flex-1 justify-center items-center text-center mainTextBlock-spacing'>
+                            <p className='uppercase text-blue text-2xl'>Recouvrement judiciaire</p>
+                            <p>Nous pouvons réaliser votre dossier afin de le remettre au greffe du tribunal pour réaliser une injonction
+                        de payer par un huissier.
+                        Suite à la décision du juge, nous vous remettrons les documents nécéssaires ainsi qu&apos;au débiteur.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <section id="services" className="text-center">
+            <section id="services" className="text-center max-w-[1080px] mx-auto">
                 <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing font-bold'>
                     <p className='uppercase text-blue text-3xl'>NOS SERVICES</p>
                     <p>JF Recouvrement vous propose plusieurs prestations</p>

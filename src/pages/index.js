@@ -24,7 +24,7 @@ export default function Index() {
                     <p>Laissez-nous vous représenter</p>
                 </div>
                 <div className="md:grid md:grid-cols-3">
-                    <div className="md:grid md:grid-rows-2 ">
+                    <div className="md:flex md:flex-col-reverse md:order-2">
                         <div className='flex-1 flex items-center justify-center'>
                             <Image src='/signature.png' width={640} height={510} alt="recouvrement amiable"></Image>
                         </div>
@@ -35,7 +35,7 @@ export default function Index() {
                         une facturation uniquement sous réserve de règlement du créancier.</p>
                         </div>
                     </div>
-                    <div className="md:flex md:flex-col-reverse">
+                    <div className="md:grid md:grid-rows-2 md:order-1">
                         <div className='flex-1 flex items-center justify-center'>
                             <Image src='/friendly_recovery.png' width={640} height={510} alt="le saviez-vous ?"></Image>
                         </div>
@@ -45,7 +45,7 @@ export default function Index() {
             de temps et contactez-nous !</p>
                         </div>
                     </div>
-                    <div className="md:grid md:grid-rows-2">
+                    <div className="md:grid md:grid-rows-2 order-3">
                         <div className='flex-1 flex items-center justify-center'>
                             <Image src='/specialities.png' width={640} height={510} alt="recouvrement judiciaire"></Image>
                         </div>
@@ -59,12 +59,12 @@ export default function Index() {
                 </div>
             </section>
 
-            <section id="services" className="text-center max-w-[1080px] mx-auto">
+            <section id="services" className="text-center max-w-[1080px] mx-auto ">
                 <div className='flex flex-col justify-center items-center text-center mainTextBlock-spacing font-bold'>
                     <p className='uppercase text-blue text-3xl'>NOS SERVICES</p>
                     <p>JF Recouvrement vous propose plusieurs prestations</p>
                 </div>
-                <div className="md:grid md:grid-cols-3">
+                <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-3">
                     <div className="relative md:grid md:grid-rows-2 justify-items-center">
                         <div className="w-36 mx-auto md:mx-0">
                             <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={759} alt="recouvrement amiable"></Image>
@@ -96,6 +96,7 @@ export default function Index() {
                     </div>
                 </div>
             </section>
+            <hr className="max-w-[1080px] mx-8 md:mx-auto my-8 text-blue"/>
             <ContactCard />
         </>
     )

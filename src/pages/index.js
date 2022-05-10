@@ -64,31 +64,31 @@ export default function Index() {
                     <p className='uppercase text-blue text-3xl'>NOS SERVICES</p>
                     <p>JF Recouvrement vous propose plusieurs prestations</p>
                 </div>
-                <div className="md:flex">
-                    <div className="relative flex-1 flex flex-col items-center">
-                        <div className="w-32">
-                            <Image src='/undraw_predictive_analytics_re_wxt8.svg' width={363} height={438} alt="analyse du client"></Image>
+                <div className="md:grid md:grid-cols-3">
+                    <div className="relative md:grid md:grid-rows-2 justify-items-center">
+                        <div className="w-36 self-center">
+                            <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={759} alt="recouvrement amiable"></Image>
                         </div>
-                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
+                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
+                            <p className='uppercase text-blue text-2xl '>RECOUVREMENT AMIABLE</p>
+                            <p>Nous réalisons votre recouvrement amiable dans le forfait que vous souhaitez; chaque client dispose
+                                d&apos;une offre précise selon ses besoins.</p>
+                        </div>
+                    </div>
+                    <div className="relative md:grid md:grid-rows-2 justify-items-center">
+                        <div className="w-36">
+                            <Image src='/undraw_predictive_analytics_re_wxt8.svg' width={363} height={363} layout="responsive" alt="analyse du client"></Image>
+                        </div>
+                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
                             <p className='uppercase text-blue text-2xl'>ANALYSE DU CLIENT</p>
                             <p>Grâce à nos outils informatiques, nous vous proposons une analyse chiffrée et complète de vos clients.</p>
                         </div>
                     </div>
-                    <div className="relative flex-1 flex flex-col items-center">
-                        <div className="w-32">
-                            <Image src='/undraw_business_deal_re_up4u.svg' width={759} height={616} alt="recouvrement amiable"></Image>
+                    <div className="relative md:grid md:grid-rows-2 justify-items-center">
+                        <div className="w-36">
+                            <Image src='/undraw_growth_analytics_re_pyxf.svg' width={932} height={932} alt="compte rendu mensuel"></Image>
                         </div>
-                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
-                            <p className='uppercase text-blue text-2xl '>RECOUVREMENT AMIABLE</p>
-                            <p>Nous réalisons votre recouvrement amiable dans le forfait que vous souhaitez; chaque client dispose
-                              d&apos;une offre précise selon ses besoins.</p>
-                        </div>
-                    </div>
-                    <div className="relative flex-1 flex flex-col items-center">
-                        <div className="w-32">
-                            <Image src='/undraw_growth_analytics_re_pyxf.svg' width={932} height={568} alt="compte rendu mensuel"></Image>
-                        </div>
-                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center mainTextBlock-spacing'>
+                        <div className=' md:bottom-0 flex flex-col justify-center items-center text-center px-4'>
                             <p className='uppercase text-blue text-2xl '>COMPTE RENDU MENSUEL</p>
                             <p>Nous réalisons un suivi détaillé qu&apos;il soit mensuel ou spécialisé: si un client a régulièrement des impayés,
                               vous en serez alerté.</p>

@@ -7,7 +7,7 @@ export default function Index() {
             <section id="home" className="md:bg-fixed md:bg-center md:bg-cover md:banner-background md:h-96">
                 <div className='relative text-center md:h-full'>
                     <div className="md:hidden">
-                        <Image  src='/banner.png' width={640} height={510} layout="responsive"  alt="banner"></Image>
+                        <Image  src='/banner.png' width={640} height={510} layout="responsive"  alt="banner" priority></Image>
                     </div>
                     <div
                         className='absolute md:relative top-0 flex flex-col justify-center items-center w-full h-full text-white text-center '>

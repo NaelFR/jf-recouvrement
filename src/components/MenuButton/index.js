@@ -7,7 +7,7 @@ const MenuButton = ({
     width = 24,
     height = 24,
     strokeWidth = 1,
-    color = "#fff",
+    color = "#000",
     transition = null,
     lineProps = null,
     ...props

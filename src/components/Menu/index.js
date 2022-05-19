@@ -8,17 +8,16 @@ export function Menu() {
     const [isOpen, setIsOpen] = useState(false)
 
     const menuClassNames = classNames(
-        "text-center py-2 md:h-auto md:flex md:justify-center md:opacity-100 md:gap-4 text-white md:translate-y-0",
+        "text-center md:h-auto md:flex md:justify-center md:opacity-100 md:gap-4 text-black md:translate-y-0",
         {
-            "h-0 translate-y-5 opacity-0": !isOpen, "h-max translate-y-0 opacity-100": isOpen
+            "h-0 translate-y-5 opacity-0 ": !isOpen, "h-max translate-y-0 opacity-100 py-2": isOpen
         }
     )
 
     return (
-        <div className="bg-black text-white">
-            <div className="flex items-center md:justify-center px-4">
-                <Image src="/JF-Recouvrement.svg" alt="JF recouvrement Logo" width={231} height={95} />
-
+        <div className="text-black">
+            <div className="flex items-center md:justify-center pr-4">
+                <Image src="/JF_Recouvrement_smile.png" width={481} height={200} quality={100}/>
                 <MenuButton className="ml-auto md:hidden" isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}/>
             </div>
             <ul

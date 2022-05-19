@@ -17,7 +17,9 @@ export function Menu() {
     return (
         <div className="text-black">
             <div className="flex items-center md:justify-center pr-4">
-                <Image src="/JF_Recouvrement_smile.png" width={481} height={200} quality={100}/>
+                <div className="w-96 py-6 px-4 md:px-0">
+                    <Image src="/JF_site_header.png" width={1046} height={138} quality={100}/>
+                </div>
                 <MenuButton className="ml-auto md:hidden" isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}/>
             </div>
             <ul

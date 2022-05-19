@@ -1,12 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+export const meta = {
+    title: 'JF Recouvrement',
+    description: "JF Recouvrement est spécialisé dans le recouvrement de créances à l'amiable. N'hésitez pas à nous contacter pour plus d'informations. Avec JF Recouvrement, la créance retrouve le sourire.",
+    image: 'https://www.jf-recouvrement.fr/JF_social_preview.png',
+    type: 'website',
+};
 export default function Document() {
-    const meta = {
-        title: 'JF Recouvrement',
-        description: "JF Recouvrement est spécialisé dans le recouvrement de créances à l'amiable. N'hésitez pas à nous contacter pour plus d'informations. Avec JF Recouvrement, la créance retrouve le sourire.",
-        image: 'https://www.jf-recouvrement.fr/JF_social_preview.png',
-        type: 'website',
-    };
     return (
         <Html>
             <Head>

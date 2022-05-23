@@ -10,7 +10,6 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <title>{meta.title}</title>
                 <link rel="icon" href="/JF.svg" />
                 <link rel="mask-icon" href="/JF.svg" color="#00a1e2" />
                 <meta name="robots" content="follow, index" />
